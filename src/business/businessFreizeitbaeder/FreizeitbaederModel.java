@@ -70,5 +70,4 @@ public class FreizeitbaederModel implements Observable {
 			obs.update();
 		}	
 	}
-	
 }

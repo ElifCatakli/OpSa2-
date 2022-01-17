@@ -24,5 +24,4 @@ public class PlausiException extends Exception {
 		return "Bitte korrigieren Sie den " + plausiTyp + "en " 
 	  	    + "Eingabefehler im Feld " + this.feldname + ".";
 	}
-	
 }

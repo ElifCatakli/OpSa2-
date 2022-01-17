@@ -49,5 +49,4 @@ public class ConcreteCreator extends Creator {
 	public void setWriter(FileWriter writer) {
 		this.writer = writer;
 	}
-	
 }

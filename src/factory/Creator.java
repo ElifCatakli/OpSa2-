@@ -13,5 +13,4 @@ public abstract class Creator {
 	public abstract ArrayList<Freizeitbad> freizeitbad() throws IOException;
 
 	public abstract ArrayList<Sporthalle> sporthalle() throws IOException;
-
 }

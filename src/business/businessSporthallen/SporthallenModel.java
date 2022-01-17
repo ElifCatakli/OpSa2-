@@ -44,4 +44,5 @@ public class SporthallenModel {
 	public void setSporthallen(ArrayList<Sporthalle> sporthalle) {
 		this.sporthalle = sporthalle;
 	}
+	
 }

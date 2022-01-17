@@ -44,4 +44,5 @@ public class FreizeitbaederControl implements Observer {
 	public void update() {
 		freizeitbaederView.zeigeFreizeitbaederAn();
 	}
+
 }

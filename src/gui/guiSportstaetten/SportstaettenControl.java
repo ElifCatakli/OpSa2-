@@ -47,5 +47,4 @@ public class SportstaettenControl implements Observer {
 	public void update() {
 		sportstaettenView.zeigeFreizeitbaederAn();
 	}
-	
 }

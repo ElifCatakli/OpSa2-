@@ -143,5 +143,4 @@ public class SportstaettenView {
 	public void setSportstaettenControl(SportstaettenControl sportstaettenControl) {
 		this.sportstaettenControl = sportstaettenControl;
 	}
-	
 }
