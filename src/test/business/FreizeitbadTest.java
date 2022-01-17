@@ -26,7 +26,8 @@ class FreizeitbadTest {
 	@Test
 	void imKonstruktorEnthalten() {
 		BooleanSupplier booleanSupplier;
-		booleanSupplier = () -> freizeitbad.getBeckenlaenge() == 25; // prüft ob die Beckenlaenge im Konstruktor auf 25 gesetzt wurde
+		booleanSupplier = () -> freizeitbad.getBeckenlaenge() == 25; // prï¿½ft ob die Beckenlaenge im Konstruktor auf 25 gesetzt wurde
 		assertTrue(booleanSupplier.getAsBoolean());
 	}	
+	
 }

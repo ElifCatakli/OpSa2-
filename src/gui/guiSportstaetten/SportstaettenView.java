@@ -26,7 +26,7 @@ public class SportstaettenView {
 	private FreizeitbaederModel freizeitbaederModel;
 	// ---Anfang Attribute der grafischen Oberflaeche---
 	private Pane pane = new Pane();
-	private Label lblAnzeigeFreizeitbaeder = new Label("Anzeige Freizeitbäder");
+	private Label lblAnzeigeFreizeitbaeder = new Label("Anzeige Freizeitbï¿½der");
 	private TextArea txtAnzeigeFreizeitbaeder = new TextArea();
 	private Button btnAnzeigeFreizeitbaeder = new Button("Anzeige");
 	private Label lblAnzeigeSporthallen = new Label("Anzeige Sporthallen");
@@ -40,7 +40,7 @@ public class SportstaettenView {
 		this.freizeitbaederModel = freizeitbaederModel;
 		Scene scene = new Scene(this.pane, 560, 340);
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Anzeige von Sportstätten");
+		primaryStage.setTitle("Anzeige von Sportstï¿½tten");
 		primaryStage.show();
 		// Hier ergaenzen
 		this.sporthallenModel = sporthallenModel;
@@ -143,4 +143,5 @@ public class SportstaettenView {
 	public void setSportstaettenControl(SportstaettenControl sportstaettenControl) {
 		this.sportstaettenControl = sportstaettenControl;
 	}
+	
 }

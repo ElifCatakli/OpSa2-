@@ -25,11 +25,11 @@ public class FreizeitbaederControl implements Observer {
 				// Typs und Ausgabe der Meldung
 				this.freizeitbaederModel.schreibeFreizeitbaederInCsvDatei();
 				this.freizeitbaederView.zeigeInformationsfensterAn(
-						"Die Freizeitbäder wurden erfolgreich in die csv-Datei eingetragen.");
+						"Die Freizeitbï¿½der wurden erfolgreich in die csv-Datei eingetragen.");
 			} else if ("txt".equals(typ)) {
 				freizeitbaederModel.schreibeFreizeitbaederInTxtDatei();
 				freizeitbaederView.zeigeInformationsfensterAn(
-						"Die Freizeitbäder wurden erfolgreich in die txt-Datei eingetragen.");
+						"Die Freizeitbï¿½der wurden erfolgreich in die txt-Datei eingetragen.");
 
 			} else {
 				freizeitbaederView.zeigeInformationsfensterAn("Noch nicht implementiert!");
@@ -44,5 +44,4 @@ public class FreizeitbaederControl implements Observer {
 	public void update() {
 		freizeitbaederView.zeigeFreizeitbaederAn();
 	}
-	
 }
