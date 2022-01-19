@@ -23,6 +23,5 @@ public class MeldungsfensterAnzeiger {
 	    alert.setTitle(this.titel);
 	    alert.setContentText(this.meldung);
 	    alert.showAndWait();
-    }   
-    
+    }      
 }

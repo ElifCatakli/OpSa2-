@@ -15,8 +15,7 @@ public class SportstaettenControl implements Observer {
 	public SportstaettenControl(Stage primaryStage) {
 		this.freizeitbaederModel = FreizeitbaederModel.getInstance();
 		this.sporthallenModel = SporthallenModel.getInstance();
-		this.sportstaettenView = new SportstaettenView(primaryStage, this, this.freizeitbaederModel,
-				this.sporthallenModel);
+		this.sportstaettenView = new SportstaettenView(primaryStage, this, freizeitbaederModel, sporthallenModel);
 		this.freizeitbaederModel.addObserver(this);
 	}
 
@@ -40,6 +39,22 @@ public class SportstaettenControl implements Observer {
 			sportstaettenView.zeigeFehlermeldungsfensterAn("IOException beim Speichern!", exc.toString());
 		} catch (Exception exc) {
 			sportstaettenView.zeigeFehlermeldungsfensterAn("Unbekannter Fehler beim Speichern!", exc.toString());
+		}
+	}
+	
+	public void leseSporthallenAusCsvDatei(String typ) {
+		// TODO Auto-generated method stub
+		try {
+			if(typ.equals("csv")) {
+				sporthallenModel.leseSporthallenAusCsvDatei();
+			}
+			else {
+				this.sportstaettenView.zeigeInformationsfensterAn("Die Datei konnte nicht implementiert werden, da die Datei nicht existiert.");
+			}
+		} catch(IOException exc) {
+			this.sportstaettenView.zeigeFehlermeldungsfensterAn("Fehler nicht bekannt",  exc.toString());
+		} catch(Exception exc) {
+			sportstaettenView.zeigeFehlermeldungsfensterAn("Unbekannter Fehler beim Lesen",  exc.toString());
 		}
 	}
 

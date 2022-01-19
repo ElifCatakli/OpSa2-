@@ -123,4 +123,5 @@ public class Freizeitbad {
 	public void setTemperatur(int temperatur) {
 		this.temperatur = temperatur;
 	}
+	
 }

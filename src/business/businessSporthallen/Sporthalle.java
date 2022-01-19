@@ -90,4 +90,5 @@ public class Sporthalle {
 	public void setBodenbelag(String bodenbelag) {
 		this.bodenbelag = bodenbelag;
 	}
+	
 }

@@ -25,4 +25,5 @@ public class ConcreteTxtProduct extends Product {
 	public void schliesseDatei() throws IOException {
 		this.bw.close();
 	}
+	
 }

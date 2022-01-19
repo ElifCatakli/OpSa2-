@@ -43,6 +43,7 @@ public class FreizeitbaederControl implements Observer {
 	@Override
 	public void update() {
 		freizeitbaederView.zeigeFreizeitbaederAn();
+		
 	}
 
 }

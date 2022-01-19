@@ -1,0 +1,17 @@
+Daten des Freizeitbades
+Name des Freizeitbaedes:			Universitätsbad
+Öffnungszeit des Freizeitbads:		10.0 - 13.0
+Beckenlänge des Freizeitbads:		12
+Wassertemperatur des Freizeitbads:	33
+
+Daten des Freizeitbades
+Name des Freizeitbaedes:			Testbad
+Öffnungszeit des Freizeitbads:		11.0 - 16.0
+Beckenlänge des Freizeitbads:		17
+Wassertemperatur des Freizeitbads:	25
+
+Daten des Freizeitbades
+Name des Freizeitbaedes:			Stadtbad
+Öffnungszeit des Freizeitbads:		7.0 - 19.0
+Beckenlänge des Freizeitbads:		25
+Wassertemperatur des Freizeitbads:	24

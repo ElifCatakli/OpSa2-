@@ -169,5 +169,6 @@ public class FreizeitbaederView {
 
 	public void zeigeFehlermeldungsfensterAn(String fehlertyp, String meldung) {
 		new MeldungsfensterAnzeiger(AlertType.ERROR, fehlertyp + "Fehler", meldung).zeigeMeldungsfensterAn();
+	
 	}
 }
